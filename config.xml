@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MacroConfiguration>
+  <Logger enabled="true" />
+  <MacroSets>
+	  <MacroSet name="Set Mouse" triggerkey="F3" enabled="true" cancelkey="escape">
+		  <Macro keyword="move fast" value="200 200" />
+		  <Macro keyword="wait" value="1000" />
+		  <Macro keyword="move fast" value="2000 200" />
+		  <Macro keyword="wait" value="1000" />
+		  <Macro keyword="repeatfrom" value="0" />
+	  </MacroSet>
+    <MacroSet name="Set Config2" triggerkey="F5" enabled="true">
+		<Macro keyword="wait" value="200" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="enter" />
+		<Macro keyword="release" value="1" />
+	</MacroSet>
+	<MacroSet name="Set Config" triggerkey="F6" enabled="true">
+		<Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="tab" />
+		<Macro keyword="release" value="tab" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="1" />
+		<Macro keyword="release" value="1" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="0" />
+		<Macro keyword="release" value="0" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="tab" />
+		<Macro keyword="release" value="tab" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="2" />
+		<Macro keyword="release" value="2" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="1" />
+		<Macro keyword="release" value="1" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="8" />
+		<Macro keyword="release" value="8" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="6" />
+		<Macro keyword="release" value="6" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="4" />
+		<Macro keyword="release" value="4" />
+        <Macro keyword="wait" value="200" />
+		<Macro keyword="press" value="tab" />
+		<Macro keyword="release" value="tab" />
+	</MacroSet>
+  </MacroSets>
+</MacroConfiguration>

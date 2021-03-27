@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.Bowtie8904:BtUserInterface:3bcba09b">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtUserInterface/3bcba09b/BtUserInterface-3bcba09b.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtUserInterface/3bcba09b/BtUserInterface-3bcba09b-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtUserInterface/3bcba09b/BtUserInterface-3bcba09b-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

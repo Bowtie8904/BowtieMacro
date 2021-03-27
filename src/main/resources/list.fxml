@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXScrollPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="pane" minHeight="0.0" minWidth="0.0" prefHeight="427.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <BorderPane BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </BorderPane.margin>
+         <top>
+            <JFXButton fx:id="toggleButton" prefHeight="25.0" prefWidth="129.0" text="Active" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="15.0" />
+               </BorderPane.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </top>
+         <bottom>
+            <JFXButton fx:id="loadButton" prefHeight="25.0" prefWidth="129.0" ripplerFill="#1e78d6" text="Reload Configuration" BorderPane.alignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </bottom>
+      </BorderPane>
+   </bottom>
+   <center>
+      <JFXScrollPane BorderPane.alignment="CENTER">
+         <children>
+            <JFXListView fx:id="list" />
+         </children>
+      </JFXScrollPane>
+   </center>
+</BorderPane>
